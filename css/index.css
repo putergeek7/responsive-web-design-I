@@ -1,3 +1,166 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* max-width: 100%; */
+  /* border: 1px solid grey; */
+}
 
+/* UNIVERSAL GENERAL */
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+  line-height: 1;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.navigation {
+  margin: 2% 5%;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  margin-left: -10;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 5%;
+  border-bottom: 1px solid black;
+  padding-bottom: 5%;
+}
+
+.tagline {
+  margin-left: 5%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 3px 10px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#mid-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 30%;
+}
+
+.middle-img {
+  width: 100%;
+  margin: -15% auto;
+}
+
+.features {
+  margin-top: -25%;
+  margin-left: -0.2%;
+  padding: 2% 0;
+  text-align: left;
+  width: 45%;
+  line-height: 1.5;
+}
+
+.about {
+  margin-top: -19%;
+  margin-left: 55.5%;
+  padding: 2% 0;
+  text-align: left;
+  font-size: 16px;
+  width: 45%;
+  line-height: 1.5;
+}
+
+#bottom-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 18%;
+}
+
+.services {
+  padding-top: 2%;
+  width: 32.5%;
+  margin-left: -0.35%;
+  text-align: left;
+}
+
+.product {
+  padding-top: 2%;
+  text-align: left;
+  width: 32.5%;
+}
+
+.vision {
+  padding-top: 2%;
+  text-align: left;
+  width: 32.5%;
+}
+
+#footer {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+/* FOOTER AREA */
+.contact {
+  margin-top: 4%;
+  margin-left: 0.1%;
+  padding-top: 4%;
+  border-top: 1px solid black;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+}
